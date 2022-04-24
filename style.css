@@ -1,0 +1,34 @@
+body{
+background: #FFFF7D;
+background: -webkit-linear-gradient(top left, #FFFF7D, #F2DD8C);
+background: -moz-linear-gradient(top left, #FFFF7D, #F2DD8C);
+background: linear-gradient(to bottom right, #FFFF7D, #F2DD8C);
+}
+
+h1{
+    color:navy;
+    background-color: cornsilk;
+}
+
+#show_sketch
+{
+    float:right;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: phone;
+    animation-duration: 4s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes phone{
+    from {box-shadow: 50px 1px 38px gray;}
+    to {box-shadow:1px 1px 38px white;}
+
+}
+p{
+padding-top:10px;
+font-size: 25px;
+}
